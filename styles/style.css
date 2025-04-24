@@ -1,12 +1,11 @@
-.header {
-  /* шапка */
+.header {     /* шапка */
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 0 50px;
   background-color: white;
   width: 100%;
-  padding: 92px 50px 96px 50px;
+  padding: 92px 50px 96px 50px;  
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
@@ -35,6 +34,7 @@
   border-bottom: 1px solid black;
 }
 
+
 .header__logo {
   height: 105px;
 }
@@ -48,19 +48,21 @@
   font-style: normal;
 }
 
+
 .justify-self-end {
   width: 240px;
   justify-self: end;
 }
 
-.cover {
-  /*  секция ковер */
+
+.cover {    /*  секция ковер */
   z-index: 0;
   position: relative;
   padding: 165px 50px 50px 50px;
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
+  
 }
 
 .cover__tittle {
@@ -82,7 +84,7 @@
 }
 
 .no-letter-spacing {
-  letter-spacing: 0;
+ letter-spacing: 0;
 }
 
 .description {
@@ -121,8 +123,8 @@
   z-index: -1;
 }
 
-.lots {
-  /*  секция лотс */
+
+.lots {         /*  секция лотс */
   margin-top: 180px;
   background-size: cover;
   margin-bottom: 155px;
@@ -147,8 +149,9 @@
 }
 
 .lots__card-list a {
-  text-decoration: none;
+ text-decoration: none;
 }
+
 
 .lots__card-list-item {
   margin-bottom: 24px;
@@ -176,6 +179,7 @@
   background-image: url("../images/card-lot-03.jpg");
 }
 
+
 .card__title {
   line-height: 120%;
   font-size: 22px;
@@ -196,8 +200,7 @@
   margin-left: 64px;
 }
 
-.about {
-  /*  секция about */
+.about {    /*  секция about */
   display: grid;
   grid-template-columns: 334px 1fr;
   margin-bottom: 180px;
@@ -219,6 +222,7 @@
   height: 114px;
 }
 
+
 .about__title {
   margin-top: 101px;
   padding-left: 49px;
@@ -235,12 +239,13 @@
   font-weight: 400;
 }
 
+
 .about__text p:nth-child(1) {
   margin-bottom: 24px;
 }
 
-.footer {
-  /* footer */
+
+.footer {   /* footer */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
@@ -257,6 +262,7 @@
   line-height: 24px;
 }
 
+
 .footer__menu-list {
   text-align: center;
 }
@@ -271,3 +277,4 @@
   width: 48px;
   height: 48px;
 }
+
