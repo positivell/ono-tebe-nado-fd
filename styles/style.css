@@ -1,6 +1,4 @@
-/* шапка */
-
-.header {     
+.header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
@@ -53,9 +51,7 @@
   justify-self: end;
 }
 
-/*  секция ковер */
-
-.cover {    
+.cover {
   z-index: 0;
   position: relative;
   padding: 165px 50px 50px 50px;
@@ -123,9 +119,7 @@
   z-index: -1;
 }
 
-/*  секция лотс */
-
-.lots {         
+.lots {
   margin-top: 180px;
   background-size: cover;
   margin-bottom: 155px;
@@ -199,9 +193,7 @@
   margin-left: 64px;
 }
 
-/*  секция about */
-
-.about {    
+.about {
   display: grid;
   grid-template-columns: 334px 1fr;
   margin-bottom: 180px;
@@ -243,9 +235,7 @@
   margin-bottom: 24px;
 }
 
-/* footer */
-
-.footer {   
+.footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
@@ -276,4 +266,3 @@
   width: 48px;
   height: 48px;
 }
-
